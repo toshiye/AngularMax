@@ -1,0 +1,394 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200629.105228.13292.0.001.json",
+    "dumpEventTime": "2020-06-29T10:52:28Z",
+    "dumpEventTimeStamp": "1593438748139",
+    "processId": 13292,
+    "cwd": "E:\\repositórios\\angularmax\\mean-course",
+    "commandLine": [
+      "node",
+      "C:\\Users\\Cambos\\AppData\\Roaming\\npm\\\\node_modules\\@angular\\cli\\bin\\ng",
+      "serve"
+    ],
+    "nodejsVersion": "v12.6.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.6.0",
+      "v8": "7.5.288.22-node.14",
+      "uv": "1.30.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.38.0",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.6.0/node-v12.6.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.6.0/node-v12.6.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.6.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19041",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 2296125,
+        "nice": 0,
+        "sys": 2258343,
+        "idle": 82273343,
+        "irq": 346484
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 2296125,
+        "nice": 0,
+        "sys": 2258343,
+        "idle": 82273343,
+        "irq": 346484
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 2296125,
+        "nice": 0,
+        "sys": 2258343,
+        "idle": 82273343,
+        "irq": 346484
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 2296125,
+        "nice": 0,
+        "sys": 2258343,
+        "idle": 82273343,
+        "irq": 346484
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 2296125,
+        "nice": 0,
+        "sys": 2258343,
+        "idle": 82273343,
+        "irq": 346484
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 2296125,
+        "nice": 0,
+        "sys": 2258343,
+        "idle": 82273343,
+        "irq": 346484
+      }
+    ],
+    "host": "souzacambos64"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff642ff6db9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10889"
+    },
+    {
+      "pc": "0x00007ff642ffa72c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+25596"
+    },
+    {
+      "pc": "0x00007ff642ff96d8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+21416"
+    },
+    {
+      "pc": "0x00007ff6430e300b",
+      "symbol": "v8::base::CPU::has_sse+37675"
+    },
+    {
+      "pc": "0x00007ff6438c8a1e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff6438b0d6a",
+      "symbol": "v8::SharedArrayBuffer::Externalize+842"
+    },
+    {
+      "pc": "0x00007ff64374256c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff64374a48f",
+      "symbol": "v8::internal::Heap::OldGenerationSizeOfObjects+4879"
+    },
+    {
+      "pc": "0x00007ff643740733",
+      "symbol": "v8::internal::Heap::CollectGarbage+1235"
+    },
+    {
+      "pc": "0x00007ff64373fb64",
+      "symbol": "v8::internal::Heap::CollectAllAvailableGarbage+196"
+    },
+    {
+      "pc": "0x00007ff64373f03f",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2415"
+    },
+    {
+      "pc": "0x00007ff6437561be",
+      "symbol": "v8::internal::Factory::AllocateRawFixedArray+94"
+    },
+    {
+      "pc": "0x00007ff64375dc64",
+      "symbol": "v8::internal::Factory::NewFixedArrayWithFiller+52"
+    },
+    {
+      "pc": "0x00007ff64375dc21",
+      "symbol": "v8::internal::Factory::NewFixedArray+65"
+    },
+    {
+      "pc": "0x00007ff6437aab91",
+      "symbol": "v8::debug::Script::GetIsolate+3921"
+    },
+    {
+      "pc": "0x00007ff64353f543",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+181731"
+    },
+    {
+      "pc": "0x00007ff64397170d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+614605"
+    },
+    {
+      "pc": "0x00007ff6438f486a",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+102954"
+    },
+    {
+      "pc": "0x000000d8822db6fb",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2155655168,
+    "totalCommittedMemory": 2155655168,
+    "usedMemory": 2092204968,
+    "availableMemory": 46579312,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261832,
+        "used": 31960,
+        "available": 229872
+      },
+      "new_space": {
+        "memorySize": 4194304,
+        "committedMemory": 4194304,
+        "capacity": 2094656,
+        "used": 0,
+        "available": 2094656
+      },
+      "old_space": {
+        "memorySize": 1973563392,
+        "committedMemory": 1973563392,
+        "capacity": 1920041984,
+        "used": 1920041984,
+        "available": 0
+      },
+      "code_space": {
+        "memorySize": 6717440,
+        "committedMemory": 6717440,
+        "capacity": 5515104,
+        "used": 5515104,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 6557696,
+        "committedMemory": 6557696,
+        "capacity": 3285520,
+        "used": 3285520,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 163737600,
+        "committedMemory": 163737600,
+        "capacity": 162780096,
+        "used": 162780096,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 550304,
+        "used": 550304,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 2094656,
+        "used": 0,
+        "available": 2094656
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 217.14,
+    "kernelCpuSeconds": 10.046,
+    "cpuConsumptionPercent": 3.23811,
+    "maxRss": 2215444480,
+    "pageFaults": {
+      "IORequired": 1582597,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 5659,
+      "writes": 17
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=E:": "E:\\Repositórios\\AngularMax\\mean-course",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANDROID_HOME": "E:\\Programas\\IDE\\androidStudioSDK",
+    "ANSICON": "198x1000 (198x50)",
+    "ANSICON_DEF": "A",
+    "APPDATA": "C:\\Users\\Cambos\\AppData\\Roaming",
+    "BROWSERSLIST_IGNORE_OLD_DATA": "1",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132151227642309169",
+    "CMDER_ROOT": "E:\\Programas\\GERAL\\cmder",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "SOUZACAMBOS64",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "ConEmuANSI": "ON",
+    "ConEmuAnsiLog": "",
+    "ConEmuBackHWND": "0x0005060A",
+    "ConEmuBaseDir": "E:\\Programas\\GERAL\\cmder\\vendor\\conemu-maximus5\\ConEmu",
+    "ConEmuBaseDirShort": "E:\\Programas\\GERAL\\cmder\\vendor\\conemu-maximus5\\ConEmu",
+    "ConEmuBuild": "180626",
+    "ConEmuDir": "E:\\Programas\\GERAL\\cmder\\vendor\\conemu-maximus5",
+    "ConEmuDrawHWND": "0x0004063C",
+    "ConEmuDrive": "E:",
+    "ConEmuHooks": "Enabled",
+    "ConEmuHWND": "0x002B0626",
+    "ConEmuIsAdmin": "ADMIN",
+    "ConEmuPalette": "<Default Windows scheme>",
+    "ConEmuPID": "7896",
+    "ConEmuServerPID": "12540",
+    "ConEmuTask": "{PowerShell::PowerShell as Admin}",
+    "ConEmuWorkDir": "C:\\Users\\Cambos",
+    "ConEmuWorkDrive": "C:",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "GDAL_DATA": "E:\\Programas\\DB\\postgreSQL\\gdal-data",
+    "HOME": "C:\\Users\\Cambos",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Cambos",
+    "LOCALAPPDATA": "C:\\Users\\Cambos\\AppData\\Local",
+    "LOGONSERVER": "\\\\SOUZACAMBOS64",
+    "NUMBER_OF_PROCESSORS": "6",
+    "OneDrive": "C:\\Users\\Cambos\\OneDrive",
+    "OPENSSL_CONF": "C:\\Program Files\\PostgreSQL\\psqlODBC\\etc\\openssl.cnf",
+    "OS": "Windows_NT",
+    "Path": "E:\\Programas\\GERAL\\cmder\\bin;E:\\Programas\\GERAL\\cmder\\vendor\\bin;E:\\Programas\\GERAL\\cmder\\vendor\\conemu-maximus5\\ConEmu\\Scripts;E:\\Programas\\GERAL\\cmder\\vendor\\conemu-maximus5;E:\\Programas\\GERAL\\cmder\\vendor\\conemu-maximus5\\ConEmu;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;E:\\Programas\\LINGUAGENS\\PYTHON\\Scripts\\;E:\\Programas\\LINGUAGENS\\PYTHON\\;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;E:\\Programas\\LINGUAGENS\\PHP;C:\\ProgramData\\ComposerSetup\\bin;E:\\Programas\\DB\\postgreSQL\\bin;E:\\Programas\\LINGUAGENS\\NODE\\;C:\\ProgramData\\chocolatey\\bin;E:\\Programas\\LINGUAGENS\\FLUTTER\\bin;E:\\Programas\\GERAL\\Git\\cmd;C:\\Users\\Cambos\\.windows-build-tools\\python27\\;C:\\Users\\Cambos\\AppData\\Local\\Microsoft\\WindowsApps;E:\\Programas\\IDE\\phpStorm\\PhpStorm 2019.2.3\\bin;C:\\Users\\Cambos\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Cambos\\AppData\\Roaming\\npm;E:\\Programas\\IDE\\pyCharm\\PyCharm 2019.2.3\\bin;E:\\Programas\\IDE\\androidStudioSDK\\tools;E:\\Programas\\IDE\\androidStudioSDK\\platform-tolls;C:\\Users\\Cambos\\AppData\\Local\\GitHubDesktop\\bin;E:\\Programas\\IDE\\webStorm\\WebStorm 2019.3\\bin;E:\\Programas\\IDE\\vsCode\\Microsoft VS Code\\bin;E:\\Programas\\IDE\\pyCharm\\PyCharm 2019.3.4\\bin;C:\\Users\\Cambos\\AppData\\Local\\Microsoft\\WindowsApps;E:\\Programas\\GERAL\\cmder",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL",
+    "PhpStorm": "E:\\Programas\\IDE\\phpStorm\\PhpStorm 2019.2.3\\bin;",
+    "POSTGIS_ENABLE_OUTDB_RASTERS": "1",
+    "POSTGIS_GDAL_ENABLED_DRIVERS": "GTiff PNG JPEG GIF XYZ DTED USGSDEM AAIGrid",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "9e0a",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSExecutionPolicyPreference": "Bypass",
+    "PSModulePath": "C:\\Users\\Cambos\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PyCharm": "E:\\Programas\\IDE\\pyCharm\\PyCharm 2019.3.4\\bin;",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\Cambos\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\Cambos\\AppData\\Local\\Temp",
+    "USERDOMAIN": "SOUZACAMBOS64",
+    "USERDOMAIN_ROAMINGPROFILE": "SOUZACAMBOS64",
+    "USERNAME": "Cambos",
+    "USERPROFILE": "C:\\Users\\Cambos",
+    "VBOX_MSI_INSTALL_PATH": "E:\\Programas\\GERAL\\VirtualBox\\",
+    "WEBPACK_DEV_SERVER": "true",
+    "WebStorm": "E:\\Programas\\IDE\\webStorm\\WebStorm 2019.3\\bin;",
+    "windir": "C:\\WINDOWS"
+  },
+  "sharedObjects": [
+    "E:\\Programas\\LINGUAGENS\\NODE\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\Program Files\\Bitdefender\\Endpoint Security\\atcuf\\264721701278385707\\atcuf64.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "E:\\Programas\\GERAL\\cmder\\vendor\\conemu-maximus5\\ConEmu\\ConEmuHk64.dll",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll"
+  ]
+}
